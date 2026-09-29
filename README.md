@@ -25,13 +25,25 @@ TECHNOLOGIES/TOOLS USED:
 STEPS TO INSTALL AND RUN THE PROJECT:
 
 [step1] Install python (latest version is preferred) or any other complier or IDE
-[step2] copy or save the file in the repository named "cabshare6.py" (dont forget to save it as a .py file)
+[step2] copy or save the file in the repository named "cabshare61.py" (dont forget to save it as a .py file)
 [step3] paste or load it into your preffered python interpreter or any other IDE
 [step4] if you are on an interpreter, simply run the file. if you are on any code editor or platform, simply open the terminal or bash and enter "python filename.py"
 
 INSTRUCTIONS FOR TESTING:
 
-Case 1: Search for a destination that exists (e.g., “Bhopal”) → should display cab details.
-Case 2: Search for a destination not in the list → should display “No cabs found.”
-Case 3: Add a new cab entry → verify it appears in subsequent searches.
-Case 5: Exit the program → should terminate gracefully.
+TESTCASE1: 
+seeing if anything other than 1 2 and 999 crashes the program, 
+entering 5
+An appropriate error message is displayed.
+
+TESTCASE2:
+Adding an entry in the arrays and then immediately testing if it exists (path 1 and then path 2)
+bhOPal is entered (lowercase and uppercase mixed)
+searching for BhOPal,
+appropriate output is observed.
+error handling in lowercase and uppercase conversion exists.
+
+TESTCASE3:
+Entering 999 to see if the program stops, 
+it does stop.
+
